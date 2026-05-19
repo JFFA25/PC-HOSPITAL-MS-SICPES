@@ -34,3 +34,13 @@ Esta carpeta debe contener documentación relacionada con:
   ![Administration](https://img.shields.io/badge/Administration-673AB7?style=for-the-badge&logo=settings&logoColor=white)
 
 > Consulta estas historias de usuario para entender las necesidades y expectativas de los usuarios finales del sistema.
+
+
+## Tabla de Observaciones
+
+| Desarrollador | Rol | Observacines|
+| :--- | :--- | :--- |
+| **Jose Francisco Flores Amador** | Líder de Proyecto / Fullstack / Documentación | 🟢 Aprovado|
+| **Edgar Cabrera Velázquez** | Backend / Lógica del sistema |🟠 En revision|
+| **Edwin Hernández Campos** | Base de datos / Estructura | 🟠 En revision|
+| **Giovany Raul Pazos Cruz** | Frontend / Interfaz |🟠 En revision|

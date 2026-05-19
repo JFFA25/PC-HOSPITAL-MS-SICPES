@@ -24,3 +24,13 @@ Esta carpeta debe contener documentación relacionada con:
   ![Maintainability](https://img.shields.io/badge/Maintainability-FFC107?style=for-the-badge&logo=tools&logoColor=white)
 
 > Consulta esta documentación para asegurar que el sistema cumpla con los estándares de calidad y desempeño requeridos.
+
+
+## Tabla de Observaciones
+
+| Desarrollador | Rol | Observacines|
+| :--- | :--- | :--- |
+| **Jose Francisco Flores Amador** | Líder de Proyecto / Fullstack / Documentación | 🟢 Aprovado|
+| **Edgar Cabrera Velázquez** | Backend / Lógica del sistema |🟠 En revision|
+| **Edwin Hernández Campos** | Base de datos / Estructura | 🟠 En revision|
+| **Giovany Raul Pazos Cruz** | Frontend / Interfaz |🟠 En revision|

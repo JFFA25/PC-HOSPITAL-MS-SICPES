@@ -7,3 +7,12 @@ Esta carpeta se encuentra en `Databases/SQL/DD`.
 Aquí se documentan las tablas, columnas, tipos de datos, relaciones y restricciones de la base de datos SQL. Incluye definiciones de cada elemento para facilitar el entendimiento del modelo de datos.
 
 > Ideal para mantener la documentación técnica del diseño de la base de datos.
+
+## Tabla de Observaciones
+
+| Desarrollador | Rol | Observacines|
+| :--- | :--- | :--- |
+| **Jose Francisco Flores Amador** | Líder de Proyecto / Fullstack / Documentación | 🟢 Aprovado|
+| **Edgar Cabrera Velázquez** | Backend / Lógica del sistema |🟠 En revision|
+| **Edwin Hernández Campos** | Base de datos / Estructura | 🟠 En revision|
+| **Giovany Raul Pazos Cruz** | Frontend / Interfaz |🟠 En revision|

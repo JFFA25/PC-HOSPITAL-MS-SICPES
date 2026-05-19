@@ -7,3 +7,12 @@ Esta carpeta se encuentra en `Databases/NoSQL/Schemas`.
 Contiene los esquemas de documentos, validaciones y ejemplos de estructura para bases de datos NoSQL. Aquí se pueden incluir definiciones de JSON Schema, reglas de validación y plantillas de documentos.
 
 > Utiliza estos recursos para estandarizar la forma y el contenido de los datos NoSQL.
+
+## Tabla de Observaciones
+
+| Desarrollador | Rol | Observacines|
+| :--- | :--- | :--- |
+| **Jose Francisco Flores Amador** | Líder de Proyecto / Fullstack / Documentación | 🟢 Aprovado|
+| **Edgar Cabrera Velázquez** | Backend / Lógica del sistema |🟠 En revision|
+| **Edwin Hernández Campos** | Base de datos / Estructura | 🟠 En revision|
+| **Giovany Raul Pazos Cruz** | Frontend / Interfaz |🟠 En revision|

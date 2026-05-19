@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="/Images/SICPES_Empresa.png" alt="SICPES Logo" width="250"/>
+  <img src="/Images/SICPES_Producto.png" alt="SICPES Logo" width="250"/>
 </p>
 
 <p align="center">

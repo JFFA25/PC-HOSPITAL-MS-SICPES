@@ -24,3 +24,13 @@ Esta carpeta debe contener documentación relacionada con:
   ![Reports](https://img.shields.io/badge/Reports-FF9800?style=for-the-badge&logo=document&logoColor=white)
 
 > Utiliza este README como guía para organizar los requisitos de usuario del proyecto y facilitar su trazabilidad.
+
+
+## Tabla de Observaciones
+
+| Desarrollador | Rol | Observacines|
+| :--- | :--- | :--- |
+| **Jose Francisco Flores Amador** | Líder de Proyecto / Fullstack / Documentación | 🟢 Aprovado|
+| **Edgar Cabrera Velázquez** | Backend / Lógica del sistema |🟠 En revision|
+| **Edwin Hernández Campos** | Base de datos / Estructura | 🟠 En revision|
+| **Giovany Raul Pazos Cruz** | Frontend / Interfaz |🟠 En revision|

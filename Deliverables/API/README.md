@@ -14,3 +14,13 @@ Esta carpeta se encuentra en `Deliverables/API` y agrupa la documentación, el c
   ![Source](https://img.shields.io/badge/Source-32CD32?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
 > Usa este README como guía rápida para identificar el propósito de cada carpeta dentro de la estructura API.
+
+
+## Tabla de Observaciones
+
+| Desarrollador | Rol | Observacines|
+| :--- | :--- | :--- |
+| **Jose Francisco Flores Amador** | Líder de Proyecto / Fullstack / Documentación | 🟢 Aprovado|
+| **Edgar Cabrera Velázquez** | Backend / Lógica del sistema |🟠 En revision|
+| **Edwin Hernández Campos** | Base de datos / Estructura | 🟠 En revision|
+| **Giovany Raul Pazos Cruz** | Frontend / Interfaz |🟠 En revision|
