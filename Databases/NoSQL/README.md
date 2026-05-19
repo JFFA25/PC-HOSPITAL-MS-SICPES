@@ -14,3 +14,12 @@ Esta carpeta se encuentra en `Databases/NoSQL` y agrupa la documentación y los 
   ![Schemas](https://img.shields.io/badge/Schemas-6A5ACD?style=for-the-badge&logo=json&logoColor=white)
 
 > Usa este README como guía rápida para identificar el propósito de cada carpeta dentro de la estructura NoSQL.
+
+## Tabla de Observaciones
+
+| Desarrollador | Rol | Observacines|
+| :--- | :--- | :--- |
+| **Jose Francisco Flores Amador** | Líder de Proyecto / Fullstack / Documentación | 🟢 Aprovado|
+| **Edgar Cabrera Velázquez** | Backend / Lógica del sistema |🟠 En revision|
+| **Edwin Hernández Campos** | Base de datos / Estructura | 🟠 En revision|
+| **Giovany Raul Pazos Cruz** | Frontend / Interfaz |🟠 En revision|

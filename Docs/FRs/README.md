@@ -14,3 +14,12 @@ En esta carpeta encontrarás:
 - Historias de usuario y criterios de aceptación.
 
 > Estos documentos detallan cómo el sistema debe funcionar.
+
+## Tabla de Observaciones
+
+| Desarrollador | Rol | Observacines|
+| :--- | :--- | :--- |
+| **Jose Francisco Flores Amador** | Líder de Proyecto / Fullstack / Documentación | 🟢 Aprovado|
+| **Edgar Cabrera Velázquez** | Backend / Lógica del sistema |🟠 En revision|
+| **Edwin Hernández Campos** | Base de datos / Estructura | 🟠 En revision|
+| **Giovany Raul Pazos Cruz** | Frontend / Interfaz |🟠 En revision|

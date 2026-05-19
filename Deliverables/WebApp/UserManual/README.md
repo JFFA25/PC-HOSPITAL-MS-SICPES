@@ -14,3 +14,12 @@ En esta carpeta encontrarás:
 - FAQ y solución de problemas comunes.
 
 > Consulta este manual para entender cómo utilizar la aplicación web.
+
+## Tabla de Observaciones
+
+| Desarrollador | Rol | Observacines|
+| :--- | :--- | :--- |
+| **Jose Francisco Flores Amador** | Líder de Proyecto / Fullstack / Documentación | 🟢 Aprovado|
+| **Edgar Cabrera Velázquez** | Backend / Lógica del sistema |🟠 En revision|
+| **Edwin Hernández Campos** | Base de datos / Estructura | 🟠 En revision|
+| **Giovany Raul Pazos Cruz** | Frontend / Interfaz |🟠 En revision|
