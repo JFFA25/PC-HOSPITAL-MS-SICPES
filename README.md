@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="/SICPES_Empresa.png" alt="SICPES Logo" width="250"/>
+  <img src="/Images/SICPES_Empresa.png" alt="SICPES Logo" width="250"/>
 </p>
 
 <p align="center">
@@ -59,13 +59,13 @@ SICPES es una innovadora plataforma web diseñada para proporcionar a los estudi
 
 ### Logos del Proyecto
 <p align="center">
-  <img src="/SICPES_Empresa.png" alt="Logo Empresa" width="300"/>
-  <img src="/SICPES_Producto.png" alt="Logo Producto" width="300"/>
+  <img src="/Images//SICPES_Empresa.png" alt="Logo Empresa" width="300"/>
+  <img src="/Images//SICPES_Producto.png" alt="Logo Producto" width="300"/>
 </p>
 
 ### Paleta de Colores
 <p align="center">
-  <img src="/colors_scipes.png" alt="Colores" width="600"/>
+  <img src="/Images//colors_scipes.png" alt="Colores" width="600"/>
 </p>
 
 ## Nuestro Equipo
