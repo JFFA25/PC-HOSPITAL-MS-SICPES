@@ -1,4 +1,4 @@
-# BRs
+﻿# BRs
 
 ![BRs](https://img.shields.io/badge/BRs-8A2BE2?style=for-the-badge&logo=business&logoColor=white) ![Docs](https://img.shields.io/badge/Docs-FF8C00?style=for-the-badge&logo=document&logoColor=white)
 
@@ -13,6 +13,21 @@ En esta carpeta encontrarás:
 - Especificaciones de políticas hospitalarias.
 - Diagramas de flujo de negocio.
 
+## Estructura de carpetas actual
+
+>|- Databases <br>
+>|- DataModels <br>
+>|- Deliverables <br>
+>|- **Docs** <br>
+>&nbsp;&nbsp;|- **BRs** <br>
+>&nbsp;&nbsp;|- FRs <br>
+>&nbsp;&nbsp;|- GUIs <br>
+>&nbsp;&nbsp;&nbsp;|- WerableApp <br>
+>&nbsp;&nbsp;&nbsp;|- WebApp <br>
+>&nbsp;&nbsp;|- NFRs <br>
+>&nbsp;&nbsp;|- UHs <br>
+>&nbsp;&nbsp;|- URs <br>
+
 > Estos documentos definen qué debe hacer el sistema desde la perspectiva del negocio.
 
 ## Tabla de Observaciones
@@ -23,3 +38,5 @@ En esta carpeta encontrarás:
 | **Edgar Cabrera Velázquez** | Backend / Lógica del sistema |🟠 En revision|
 | **Edwin Hernández Campos** | Base de datos / Estructura | 🟠 En revision|
 | **Giovany Raul Pazos Cruz** | Frontend / Interfaz |🟠 En revision|
+
+

@@ -1,4 +1,4 @@
-# API
+﻿# API
 
 ![API](https://img.shields.io/badge/API-FF6B6B?style=for-the-badge&logo=swagger&logoColor=white) ![Deliverables](https://img.shields.io/badge/Deliverables-339999?style=for-the-badge&logo=rocket&logoColor=white)
 
@@ -13,8 +13,22 @@ Esta carpeta se encuentra en `Deliverables/API` y agrupa la documentación, el c
 - `source/` - Código fuente de la API REST.
   ![Source](https://img.shields.io/badge/Source-32CD32?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
-> Usa este README como guía rápida para identificar el propósito de cada carpeta dentro de la estructura API.
+## Estructura de carpetas actual
 
+>|- Databases <br>
+>|- DataModels <br>
+>|- **Deliverables** <br>
+>&nbsp;&nbsp;|- **API** <br>
+>&nbsp;&nbsp;|- WerableApp <br>
+>&nbsp;&nbsp;|- WebApp<br>
+>&nbsp;&nbsp;&nbsp;|- DeployManual <br>
+>&nbsp;&nbsp;&nbsp;|- Source <br>
+>&nbsp;&nbsp;&nbsp;&nbsp;|- FrontEnd <br>
+>&nbsp;&nbsp;&nbsp;&nbsp;|- BackEnd <br>
+>&nbsp;&nbsp;&nbsp;|- UserManual <br>
+>|- Docs <br>
+
+> Usa este README como guía rápida para identificar el propósito de cada carpeta dentro de la estructura API.
 
 ## Tabla de Observaciones
 

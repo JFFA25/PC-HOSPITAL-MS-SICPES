@@ -1,4 +1,4 @@
-# WebApp
+﻿# WebApp
 
 ![WebApp](https://img.shields.io/badge/WebApp-4CAF50?style=for-the-badge&logo=react&logoColor=white) ![Deliverables](https://img.shields.io/badge/Deliverables-339999?style=for-the-badge&logo=rocket&logoColor=white)
 
@@ -13,4 +13,29 @@ Esta carpeta se encuentra en `Deliverables/WebApp` y agrupa la documentación, e
 - `source/` - Código fuente de la aplicación web, dividido en backend y frontend.
   ![Source](https://img.shields.io/badge/Source-32CD32?style=for-the-badge&logo=code&logoColor=white)
 
+## Estructura de carpetas actual
+
+>|- Databases <br>
+>|- DataModels <br>
+>|- **Deliverables** <br>
+>&nbsp;&nbsp;|- API <br>
+>&nbsp;&nbsp;|- WerableApp <br>
+>&nbsp;&nbsp;|- **WebApp** <br>
+>&nbsp;&nbsp;&nbsp;|- DeployManual <br>
+>&nbsp;&nbsp;&nbsp;|- Source <br>
+>&nbsp;&nbsp;&nbsp;&nbsp;|- FrontEnd <br>
+>&nbsp;&nbsp;&nbsp;&nbsp;|- BackEnd <br>
+>&nbsp;&nbsp;&nbsp;|- UserManual <br>
+>|- Docs <br>
+
+
 > Usa este README como guía rápida para identificar el propósito de cada carpeta dentro de la estructura WebApp.
+
+## Tabla de Observaciones
+
+| Desarrollador | Rol | Observacines|
+| :--- | :--- | :--- |
+| **Jose Francisco Flores Amador** | Líder de Proyecto / Fullstack / Documentación | 🟢 Aprovado|
+| **Edgar Cabrera Velázquez** | Backend / Lógica del sistema |🟠 En revision|
+| **Edwin Hernández Campos** | Base de datos / Estructura | 🟠 En revision|
+| **Giovany Raul Pazos Cruz** | Frontend / Interfaz |🟠 En revision|

@@ -1,4 +1,4 @@
-# NFRs
+﻿# NFRs
 
 ![NFRs](https://img.shields.io/badge/NFRs-FF6B6B?style=for-the-badge&logo=performance&logoColor=white)
 
@@ -23,8 +23,22 @@ Esta carpeta debe contener documentación relacionada con:
 - **Mantenibilidad** - Documentación, código limpio y facilidad de mantenimiento.
   ![Maintainability](https://img.shields.io/badge/Maintainability-FFC107?style=for-the-badge&logo=tools&logoColor=white)
 
-> Consulta esta documentación para asegurar que el sistema cumpla con los estándares de calidad y desempeño requeridos.
+## Estructura de carpetas actual
 
+>|- Databases <br>
+>|- DataModels <br>
+>|- Deliverables <br>
+>|- **Docs** <br>
+>&nbsp;&nbsp;|- BRs <br>
+>&nbsp;&nbsp;|- FRs <br>
+>&nbsp;&nbsp;|- GUIs <br>
+>&nbsp;&nbsp;&nbsp;|- WerableApp <br>
+>&nbsp;&nbsp;&nbsp;|- WebApp <br>
+>&nbsp;&nbsp;|- **NFRs** <br>
+>&nbsp;&nbsp;|- UHs <br>
+>&nbsp;&nbsp;|- URs <br>
+
+> Consulta esta documentación para asegurar que el sistema cumpla con los estándares de calidad y desempeño requeridos.
 
 ## Tabla de Observaciones
 

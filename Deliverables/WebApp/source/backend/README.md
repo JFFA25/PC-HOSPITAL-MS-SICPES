@@ -1,4 +1,4 @@
-# Backend
+﻿# Backend
 
 ![Backend](https://img.shields.io/badge/Backend-FF6B6B?style=for-the-badge&logo=nodedotjs&logoColor=white) ![WebApp](https://img.shields.io/badge/WebApp-4CAF50?style=for-the-badge&logo=react&logoColor=white)
 
@@ -12,6 +12,21 @@ En esta carpeta encontrarás:
 - Lógica de negocio y controladores.
 - Modelos y esquemas de datos.
 - Configuración y dependencias del proyecto.
+
+## Estructura de carpetas actual
+
+>|- Databases <br>
+>|- DataModels <br>
+>|- **Deliverables** <br>
+>&nbsp;&nbsp;|- API <br>
+>&nbsp;&nbsp;|- WerableApp <br>
+>&nbsp;&nbsp;|- **WebApp** <br>
+>&nbsp;&nbsp;&nbsp;|- DeployManual <br>
+>&nbsp;&nbsp;&nbsp;|- **Source** <br>
+>&nbsp;&nbsp;&nbsp;&nbsp;|- FrontEnd <br>
+>&nbsp;&nbsp;&nbsp;&nbsp;|- **BackEnd** <br>
+>&nbsp;&nbsp;&nbsp;|- UserManual <br>
+>|- Docs <br>
 
 > Este código constituye la parte servidora de la aplicación web.
 

@@ -1,8 +1,24 @@
-# Docs
+﻿# Docs
 
 ![Docs](https://img.shields.io/badge/Docs-FF8C00?style=for-the-badge&logo=document&logoColor=white)
 
 Esta carpeta se encuentra en `Docs` y contiene la documentación técnica y funcional del sistema SICPES.
+
+## Estructura de carpetas actual
+
+>|- Databases <br>
+>|- DataModels <br>
+>|- Deliverables <br>
+>|- **Docs** <br>
+>&nbsp;&nbsp;|- BRs <br>
+>&nbsp;&nbsp;|- FRs <br>
+>&nbsp;&nbsp;|- GUIs <br>
+>&nbsp;&nbsp;&nbsp;|- WerableApp <br>
+>&nbsp;&nbsp;&nbsp;|- WebApp <br>
+>&nbsp;&nbsp;|- NFRs <br>
+>&nbsp;&nbsp;|- UHs <br>
+>&nbsp;&nbsp;|- URs <br>
+
 
 ## Subcarpetas
 

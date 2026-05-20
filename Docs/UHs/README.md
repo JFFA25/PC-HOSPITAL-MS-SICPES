@@ -1,4 +1,4 @@
-# UHs
+﻿# UHs
 
 ![User Histories](https://img.shields.io/badge/User%20Histories-00BCD4?style=for-the-badge&logo=users&logoColor=white)
 
@@ -32,6 +32,21 @@ Esta carpeta debe contener documentación relacionada con:
   ![Reports](https://img.shields.io/badge/Reports-FF9800?style=for-the-badge&logo=document&logoColor=white)
 - **Administración** - Historias de funciones administrativas.
   ![Administration](https://img.shields.io/badge/Administration-673AB7?style=for-the-badge&logo=settings&logoColor=white)
+
+## Estructura de carpetas actual
+
+>|- Databases <br>
+>|- DataModels <br>
+>|- Deliverables <br>
+>|- **Docs** <br>
+>&nbsp;&nbsp;|- BRs <br>
+>&nbsp;&nbsp;|- FRs <br>
+>&nbsp;&nbsp;|- GUIs <br>
+>&nbsp;&nbsp;&nbsp;|- WerableApp <br>
+>&nbsp;&nbsp;&nbsp;|- WebApp <br>
+>&nbsp;&nbsp;|- NFRs <br>
+>&nbsp;&nbsp;|- **UHs** <br>
+>&nbsp;&nbsp;|- URs <br>
 
 > Consulta estas historias de usuario para entender las necesidades y expectativas de los usuarios finales del sistema.
 

@@ -1,4 +1,4 @@
-# UserManual
+﻿# UserManual
 
 ![UserManual](https://img.shields.io/badge/UserManual-FF8C00?style=for-the-badge&logo=book&logoColor=white) ![WebApp](https://img.shields.io/badge/WebApp-4CAF50?style=for-the-badge&logo=react&logoColor=white)
 
@@ -12,6 +12,22 @@ En esta carpeta encontrarás:
 - Instrucciones de navegación y操作.
 - Descripción de funcionalidades y características.
 - FAQ y solución de problemas comunes.
+
+## Estructura de carpetas actual
+
+>|- Databases <br>
+>|- DataModels <br>
+>|- **Deliverables** <br>
+>&nbsp;&nbsp;|- API <br>
+>&nbsp;&nbsp;|- WerableApp <br>
+>&nbsp;&nbsp;|- **WebApp** <br>
+>&nbsp;&nbsp;&nbsp;|- DeployManual <br>
+>&nbsp;&nbsp;&nbsp;|- Source <br>
+>&nbsp;&nbsp;&nbsp;&nbsp;|- FrontEnd <br>
+>&nbsp;&nbsp;&nbsp;&nbsp;|- BackEnd <br>
+>&nbsp;&nbsp;&nbsp;|- **UserManual** <br>
+>|- Docs <br>
+
 
 > Consulta este manual para entender cómo utilizar la aplicación web.
 

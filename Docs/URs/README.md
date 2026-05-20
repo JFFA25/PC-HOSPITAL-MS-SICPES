@@ -1,4 +1,4 @@
-# URs
+﻿# URs
 
 ![User Requirements](https://img.shields.io/badge/User%20Requirements-3F51B5?style=for-the-badge&logo=document&logoColor=white)
 
@@ -22,6 +22,21 @@ Esta carpeta debe contener documentación relacionada con:
   ![Medical Services](https://img.shields.io/badge/Medical%20Services-F44336?style=for-the-badge&logo=medical&logoColor=white)
 - **Reportes e información** - Requisitos de generación de reportes y acceso a datos.
   ![Reports](https://img.shields.io/badge/Reports-FF9800?style=for-the-badge&logo=document&logoColor=white)
+
+  ## Estructura de carpetas actual
+
+>|- Databases <br>
+>|- DataModels <br>
+>|- Deliverables <br>
+>|- **Docs** <br>
+>&nbsp;&nbsp;|- BRs <br>
+>&nbsp;&nbsp;|- FRs <br>
+>&nbsp;&nbsp;|- GUIs <br>
+>&nbsp;&nbsp;&nbsp;|- WerableApp <br>
+>&nbsp;&nbsp;&nbsp;|- WebApp <br>
+>&nbsp;&nbsp;|- NFRs <br>
+>&nbsp;&nbsp;|- UHs<br>
+>&nbsp;&nbsp;|- **URs** <br>
 
 > Utiliza este README como guía para organizar los requisitos de usuario del proyecto y facilitar su trazabilidad.
 

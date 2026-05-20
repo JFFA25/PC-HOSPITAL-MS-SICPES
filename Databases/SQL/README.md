@@ -1,4 +1,4 @@
-# SQL
+﻿# SQL
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-339999?style=for-the-badge&logo=database&logoColor=white)
 
@@ -14,5 +14,19 @@ Esta carpeta se encuentra en `Databases/SQL` y agrupa la documentación y los re
   ![ERD](https://img.shields.io/badge/ERD-0052CC?style=for-the-badge&logo=drawio&logoColor=white)
 - `RM/` - Modelos relacionales, esquemas y normalización.
   ![Relational Model](https://img.shields.io/badge/Relational%20Model-32CD32?style=for-the-badge&logo=database&logoColor=white)
+
+
+## Estructura de carpetas actual
+
+>|- **Databases**
+>|- NoSQL
+>&nbsp;&nbsp;|- **SQL**
+>&nbsp;&nbsp;|- Backups
+>&nbsp;&nbsp;|- DD
+>&nbsp;&nbsp;|- ERD
+>&nbsp;&nbsp;|- RM
+>|- DataModels
+>|- Deliverables
+>|- Docs
 
 > Usa este README como referencia rápida para identificar el propósito de cada carpeta dentro de la estructura SQL.

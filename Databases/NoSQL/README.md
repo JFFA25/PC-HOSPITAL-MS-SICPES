@@ -1,25 +1,27 @@
-# NoSQL
+﻿# Databases
 
-![NoSQL](https://img.shields.io/badge/NoSQL-47A248?style=for-the-badge&logo=mongodb&logoColor=white) ![Databases](https://img.shields.io/badge/Databases-339999?style=for-the-badge&logo=database&logoColor=white)
+![Databases](https://img.shields.io/badge/Databases-339999?style=for-the-badge&logo=database&logoColor=white)
 
-Esta carpeta se encuentra en `Databases/NoSQL` y agrupa la documentación y los recursos relacionados con bases de datos no relacionales.
+Este directorio agrupa la documentación estructurada de bases de datos en dos grandes bloques:
 
-## Subcarpetas
+- `SQL/` - Documentación y recursos de bases de datos relacionales.
+- `NoSQL/` - Documentación y recursos de bases de datos no relacionales.
 
-- `Backups/` - Copias de seguridad y respaldos de bases de datos NoSQL.
-  ![Backups](https://img.shields.io/badge/Backups-8A2BE2?style=for-the-badge&logo=cloud&logoColor=white)
-- `DD/` - Diccionario de datos, definiciones de colecciones y campos.
-  ![Data Dictionary](https://img.shields.io/badge/Data%20Dictionary-FF8C00?style=for-the-badge&logo=book&logoColor=white)
-- `Schemas/` - Esquemas de documentos, estructuras y validaciones.
-  ![Schemas](https://img.shields.io/badge/Schemas-6A5ACD?style=for-the-badge&logo=json&logoColor=white)
+## Carpetas principales
 
-> Usa este README como guía rápida para identificar el propósito de cada carpeta dentro de la estructura NoSQL.
+- `SQL/`  ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+- `NoSQL/`  ![NoSQL](https://img.shields.io/badge/NoSQL-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
-## Tabla de Observaciones
+## Estructura de carpetas actual
 
-| Desarrollador | Rol | Observacines|
-| :--- | :--- | :--- |
-| **Jose Francisco Flores Amador** | Líder de Proyecto / Fullstack / Documentación | 🟢 Aprovado|
-| **Edgar Cabrera Velázquez** | Backend / Lógica del sistema |🟠 En revision|
-| **Edwin Hernández Campos** | Base de datos / Estructura | 🟠 En revision|
-| **Giovany Raul Pazos Cruz** | Frontend / Interfaz |🟠 En revision|
+>|- **Databases** <br>
+>&nbsp;&nbsp;|- **NoSQL** <br>
+>&nbsp;&nbsp;|- Backups <br>
+>&nbsp;&nbsp;|- DD <br>
+>&nbsp;&nbsp;|- **Schemas** <br>
+>|- SQL <br>
+>|- DataModels <br>
+>|- Deliverables <br>
+>|- Docs <br>
+
+> Usa este README como índice general para acceder a los READMEs de cada tipo de base de datos.
