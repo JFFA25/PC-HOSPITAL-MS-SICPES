@@ -14,8 +14,8 @@ Esta carpeta se encuentra en `Deliverables/WebApp/DeployManual` y contiene la do
 >&nbsp;&nbsp;|- WebApp <br>
 >&nbsp;&nbsp;&nbsp;|- **DeployManual** <br>
 >&nbsp;&nbsp;&nbsp;|- Source <br>
->&nbsp;&nbsp;&nbsp;;&nbsp;|- FrontEnd <br>
->&nbsp;&nbsp;&nbsp;;&nbsp;|- BackEnd <br>
+>&nbsp;&nbsp;&nbsp;&nbsp;|- FrontEnd <br>
+>&nbsp;&nbsp;&nbsp;&nbsp;|- BackEnd <br>
 >&nbsp;&nbsp;&nbsp;|- UserManual <br>
 >|- Docs <br>
 
