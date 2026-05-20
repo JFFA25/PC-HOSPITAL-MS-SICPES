@@ -21,7 +21,7 @@ Esta carpeta se encuentra en `Deliverables/WebApp/source` y contiene el código 
 >&nbsp;&nbsp;|- **WebApp** <br>
 >&nbsp;&nbsp;&nbsp;|- DeployManual <br>
 >&nbsp;&nbsp;&nbsp;|- **Source** <br>
->&nbsp;&nbsp;&nbsp;&nbsp;|- **FrontEnd** <br>
+>&nbsp;&nbsp;&nbsp;&nbsp;|- FrontEnd<br>
 >&nbsp;&nbsp;&nbsp;&nbsp;|- BackEnd <br>
 >&nbsp;&nbsp;&nbsp;|- UserManual <br>
 >|- Docs <br>

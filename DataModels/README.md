@@ -23,12 +23,3 @@ Este directorio agrupa los modelos de aprendizaje automático utilizados en el p
 >|- Docs <br>
 
 > Usa este README como índice general para acceder a los READMEs de cada tipo de modelo de aprendizaje automático.
-
-## Tabla de Observaciones
-
-| Desarrollador | Rol | Observacines|
-| :--- | :--- | :--- |
-| **Jose Francisco Flores Amador** | Líder de Proyecto / Fullstack / Documentación | 🟢 Aprovado|
-| **Edgar Cabrera Velázquez** | Backend / Lógica del sistema |🟠 En revision|
-| **Edwin Hernández Campos** | Base de datos / Estructura | 🟠 En revision|
-| **Giovany Raul Pazos Cruz** | Frontend / Interfaz |🟠 En revision|

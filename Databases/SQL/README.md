@@ -30,12 +30,3 @@ Esta carpeta se encuentra en `Databases/SQL` y agrupa la documentación y los re
 >|- Docs
 
 > Usa este README como referencia rápida para identificar el propósito de cada carpeta dentro de la estructura SQL.
-
-## Tabla de Observaciones
-
-| Desarrollador | Rol | Observacines|
-| :--- | :--- | :--- |
-| **Jose Francisco Flores Amador** | Líder de Proyecto / Fullstack / Documentación | 🟢 Aprovado|
-| **Edgar Cabrera Velázquez** | Backend / Lógica del sistema |🟠 En revision|
-| **Edwin Hernández Campos** | Base de datos / Estructura | 🟠 En revision|
-| **Giovany Raul Pazos Cruz** | Frontend / Interfaz |🟠 En revision|
