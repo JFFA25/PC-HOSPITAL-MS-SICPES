@@ -14,12 +14,12 @@ Este directorio agrupa la documentación estructurada de bases de datos en dos g
 
 ## Estructura de carpetas actual
 
->|- **Databases**
->&nbsp;&nbsp;|- NoSQL
->&nbsp;&nbsp;|- SQL
->|- DataModels
->|- Deliverables
->|- Docs
+>|- **Databases** <br>
+>&nbsp;&nbsp;|- NoSQL <br>
+>&nbsp;&nbsp;|- SQL <br>
+>|- DataModels <br>
+>|- Deliverables <br>
+>|- Docs <br>
 
 > Usa este README como índice general para acceder a los READMEs de cada tipo de base de datos.
 

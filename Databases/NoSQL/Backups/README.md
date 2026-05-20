@@ -8,14 +8,14 @@ Contiene las copias de seguridad y archivos de respaldo para bases de datos NoSQ
 
 ## Estructura de carpetas actual
 
->|- **Databases**
->|- **NoSQL**
-> &nbsp;&nbsp;| - **Backups**
->&nbsp;&nbsp;|- DD
->&nbsp;&nbsp;|- Schemas
->|- DataModels
->|- Deliverables
->|- Docs
+>|- **Databases** <br>
+>|- **NoSQL** <br>
+> &nbsp;&nbsp;| - **Backups** <br>
+>&nbsp;&nbsp;|- DD <br>
+>&nbsp;&nbsp;|- Schemas <br>
+>|- DataModels <br>
+>|- Deliverables <br>
+>|- Docs <br>
 
 > Mantén aquí los respaldos de la base de datos NoSQL organizados y accesibles.
 

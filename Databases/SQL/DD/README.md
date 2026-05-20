@@ -8,16 +8,16 @@ Aquí se documentan las tablas, columnas, tipos de datos, relaciones y restricci
 
 ## Estructura de carpetas actual
 
->|- **Databases**
->|- NoSQL
->|- **SQL**
->&nbsp;&nbsp;|- Backups
->&nbsp;&nbsp;|- **DD**
->&nbsp;&nbsp;|- ERD
->&nbsp;&nbsp;|- RM
->|- DataModels
->|- Deliverables
->|- Docs
+>|- **Databases** <br>
+>|- NoSQL <br>
+>|- **SQL** <br>
+>&nbsp;&nbsp;|- Backups <br>
+>&nbsp;&nbsp;|- **DD** <br>
+>&nbsp;&nbsp;|- ERD <br>
+>&nbsp;&nbsp;|- RM <br>
+>|- DataModels <br>
+>|- Deliverables <br>
+>|- Docs <br>
 
 > Ideal para mantener la documentación técnica del diseño de la base de datos.
 

@@ -15,12 +15,12 @@ Este directorio agrupa los modelos de aprendizaje automático utilizados en el p
 
 ## Estructura de carpetas actual
 
->|- Databases
->|- **DataModels**
->&nbsp;&nbsp;|- **Supervised_Lms**
->&nbsp;&nbsp;|- Unsupervised_Lms
->|- Deliverables
->|- Docs
+>|- Databases <br>
+>|- **DataModels** <br>
+>&nbsp;&nbsp;|- Supervised_Lms<br>
+>&nbsp;&nbsp;|- Unsupervised_Lms <br>
+>|- Deliverables <br>
+>|- Docs <br>
 
 > Usa este README como índice general para acceder a los READMEs de cada tipo de modelo de aprendizaje automático.
 

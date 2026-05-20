@@ -8,16 +8,16 @@ Contiene los diagramas de entidad-relación que representan la estructura de la 
 
 ## Estructura de carpetas actual
 
->|- **Databases**
->|- NoSQL
->|- **SQL**
->&nbsp;&nbsp;|- Backups
->&nbsp;&nbsp;|- DD
->&nbsp;&nbsp;|- **ERD**
->&nbsp;&nbsp;|- RM
->|- DataModels
->|- Deliverables
->|- Docs
+>|- **Databases** <br>
+>|- NoSQL <br>
+>|- **SQL** <br>
+>&nbsp;&nbsp;|- Backups <br>
+>&nbsp;&nbsp;|- DD <br>
+>&nbsp;&nbsp;|- **ERD** <br>
+>&nbsp;&nbsp;|- RM <br>
+>|- DataModels <br>
+>|- Deliverables <br>
+>|- Docs <br>
 
 
 > Usa estos recursos para comprender y comunicar el diseño de la base de datos.

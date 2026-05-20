@@ -8,15 +8,15 @@ Documenta las colecciones, campos, tipos de datos y estructuras de los documento
 
 ## Estructura de carpetas actual
 
->|- **Databases**
->|- **NoSQL**
->&nbsp;&nbsp;|- Backups
->&nbsp;&nbsp;|- **DD**
->&nbsp;&nbsp;|- Schemas
->|- SQL
->|- DataModels
->|- Deliverables
->|- Docs
+>|- **Databases** <br>
+>|- **NoSQL** <br>
+>&nbsp;&nbsp;|- Backups <br>
+>&nbsp;&nbsp;|- **DD** <br>
+>&nbsp;&nbsp;|- Schemas <br>
+>|- SQL <br>
+>|- DataModels <br>
+>|- Deliverables <br>
+>|- Docs <br>
 
 > Usa este espacio para mantener la documentación de datos NoSQL clara y actualizada.
 

@@ -8,15 +8,15 @@ Contiene los esquemas de documentos, validaciones y ejemplos de estructura para 
 
 ## Estructura de carpetas actual
 
->|- **Databases**
->|- **NoSQL**
->&nbsp;&nbsp;|- Backups
->&nbsp;&nbsp;|- DD
->&nbsp;&nbsp;|- **Schemas**
->|- SQL
->|- DataModels
->|- Deliverables
->|- Docs
+>|- **Databases** <br>
+>|- **NoSQL** <br>
+>&nbsp;&nbsp;|- Backups <br>
+>&nbsp;&nbsp;|- DD <br>
+>&nbsp;&nbsp;|- **Schemas** <br>
+>|- SQL <br>
+>|- DataModels <br>
+>|- Deliverables <br>
+>|- Docs <br>
 
 > Utiliza estos recursos para estandarizar la forma y el contenido de los datos NoSQL.
 

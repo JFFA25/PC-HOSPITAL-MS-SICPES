@@ -8,16 +8,16 @@ Contiene las copias de seguridad y los archivos de respaldo para bases de datos 
 
 ## Estructura de carpetas actual
 
->|- **Databases**
->|- NoSQL
->|- **SQL**
->&nbsp;&nbsp;|- **Backups**
->&nbsp;&nbsp;|- DD
->&nbsp;&nbsp;|- ERD
->&nbsp;&nbsp;|- RM
->|- DataModels
->|- Deliverables
->|- Docs
+>|- **Databases** <br>
+>|- NoSQL <br>
+>|- **SQL** <br>
+>&nbsp;&nbsp;|- **Backups** <br>
+>&nbsp;&nbsp;|- DD <br>
+>&nbsp;&nbsp;|- ERD <br>
+>&nbsp;&nbsp;|- RM <br>
+>|- DataModels <br>
+>|- Deliverables <br>
+>|- Docs <br>
 
 > Usa este espacio para mantener respaldos SQL organizados y fáciles de recuperar.
 
