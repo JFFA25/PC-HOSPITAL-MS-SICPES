@@ -35,6 +35,6 @@ En esta carpeta encontrarás:
 | Desarrollador | Rol | Observacines|
 | :--- | :--- | :--- |
 | **Jose Francisco Flores Amador** | Líder de Proyecto / Fullstack / Documentación | 🟢 Aprovado|
-| **Edgar Cabrera Velázquez** | Backend / Lógica del sistema |🟠 En revision|
+| **Edgar Cabrera Velázquez** | Backend / Lógica del sistema |🟢 Aprovado|
 | **Edwin Hernández Campos** | Base de datos / Estructura | 🟢 Aprovado|
 | **Giovany Raul Pazos Cruz** | Frontend / Interfaz |🟢 Aprovado|
