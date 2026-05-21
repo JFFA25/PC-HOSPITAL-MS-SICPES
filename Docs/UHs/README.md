@@ -55,7 +55,7 @@ Esta carpeta debe contener documentación relacionada con:
 
 | Desarrollador | Rol | Observacines|
 | :--- | :--- | :--- |
-| **Jose Francisco Flores Amador** | Líder de Proyecto / Fullstack / Documentación | 🟢 Aprovado|
-| **Edgar Cabrera Velázquez** | Backend / Lógica del sistema |🟢 Aprovado|
-| **Edwin Hernández Campos** | Base de datos / Estructura | 🟢 Aprovado|
-| **Giovany Raul Pazos Cruz** | Frontend / Interfaz |🟢 Aprovado|
+| **Jose Francisco Flores Amador** | Líder de Proyecto / Fullstack / Documentación | 🟢 Aprobado|
+| **Edgar Cabrera Velázquez** | Backend / Lógica del sistema |🟢 Aprobado|
+| **Edwin Hernández Campos** | Base de datos / Estructura | 🟢 Aprobado|
+| **Giovany Raul Pazos Cruz** | Frontend / Interfaz |🟢 Aprobado|
