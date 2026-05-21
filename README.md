@@ -1,6 +1,5 @@
-﻿# PC-HOSPITAL-MS-SICPES
-
-# <p align="center">SICPES</p>
+﻿
+# <p align="center">PC-HOSPITAL-MS-SICPES</p>
 <p align="center">
   <strong>Sistema Integral de Control de Pensión de Estudiantes</strong><br>
   <em>"Conectando estudiantes con hogares seguros, digitalizando la gestión de pensiones."</em>

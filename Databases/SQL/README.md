@@ -18,15 +18,15 @@ Esta carpeta se encuentra en `Databases/SQL` y agrupa la documentación y los re
 
 ## Estructura de carpetas actual
 
->|- **Databases**
->|- NoSQL
->&nbsp;&nbsp;|- **SQL**
->&nbsp;&nbsp;|- Backups
->&nbsp;&nbsp;|- DD
->&nbsp;&nbsp;|- ERD
->&nbsp;&nbsp;|- RM
->|- DataModels
->|- Deliverables
->|- Docs
+>|- **Databases** <br>
+>|- NoSQL <br>
+>&nbsp;&nbsp;|- **SQL** <br>
+>&nbsp;&nbsp;|- Backups <br>
+>&nbsp;&nbsp;|- DD <br>
+>&nbsp;&nbsp;|- ERD <br> 
+>&nbsp;&nbsp;|- RM <br>
+>|- DataModels <br>
+>|- Deliverables <br>
+>|- Docs <br>
 
 > Usa este README como referencia rápida para identificar el propósito de cada carpeta dentro de la estructura SQL.
