@@ -21,5 +21,5 @@ Esta carpeta se encuentra en `DataModels/Supervised_Lms` y agrupa los modelos de
 | :--- | :--- | :--- |
 | **Jose Francisco Flores Amador** | Líder de Proyecto / Fullstack / Documentación | 🟢 Aprovado|
 | **Edgar Cabrera Velázquez** | Backend / Lógica del sistema |🟠 En revision|
-| **Edwin Hernández Campos** | Base de datos / Estructura | 🟠 En revision|
+| **Edwin Hernández Campos** | Base de datos / Estructura | 🟢 Aprovado|
 | **Giovany Raul Pazos Cruz** | Frontend / Interfaz |🟢 Aprovado|
