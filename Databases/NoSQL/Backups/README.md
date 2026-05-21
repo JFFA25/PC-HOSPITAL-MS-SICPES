@@ -26,4 +26,4 @@ Contiene las copias de seguridad y archivos de respaldo para bases de datos NoSQ
 | **Jose Francisco Flores Amador** | Líder de Proyecto / Fullstack / Documentación | 🟢 Aprovado|
 | **Edgar Cabrera Velázquez** | Backend / Lógica del sistema |🟠 En revision|
 | **Edwin Hernández Campos** | Base de datos / Estructura | 🟠 En revision|
-| **Giovany Raul Pazos Cruz** | Frontend / Interfaz |🟠 En revision|
+| **Giovany Raul Pazos Cruz** | Frontend / Interfaz |🟢 Aprovado|
