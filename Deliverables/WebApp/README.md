@@ -38,4 +38,4 @@ Esta carpeta se encuentra en `Deliverables/WebApp` y agrupa la documentación, e
 | **Jose Francisco Flores Amador** | Líder de Proyecto / Fullstack / Documentación | 🟢 Aprovado|
 | **Edgar Cabrera Velázquez** | Backend / Lógica del sistema |🟠 En revision|
 | **Edwin Hernández Campos** | Base de datos / Estructura | 🟠 En revision|
-| **Giovany Raul Pazos Cruz** | Frontend / Interfaz |🟠 En revision|
+| **Giovany Raul Pazos Cruz** | Frontend / Interfaz |🟢 Aprovado|
