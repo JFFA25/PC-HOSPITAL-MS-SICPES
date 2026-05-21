@@ -1,4 +1,3 @@
-(The file `c:\Users\PC-22\Desktop\PC-HOSPITAL-MS-SICPES\Images\README.md` exists, but is empty)
 # Images
 
 ![Images](https://img.shields.io/badge/Images-6A5ACD?style=for-the-badge&logo=image&logoColor=white)
