@@ -1,0 +1,34 @@
+{
+  "name": "pc-hospital-ms-sicpes",
+  "version": "1.0.0",
+  "description": "API REST para ejecutar pruebas de poblacion para el area de servicios medicos usando una base de datos hibrida entre SQL y NoSQL",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node Deliverables/API/server.js",
+    "dev": "nodemon Deliverables/API/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JFFA25/PC-HOSPITAL-MS-SICPES.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JFFA25/PC-HOSPITAL-MS-SICPES/issues"
+  },
+  "homepage": "https://github.com/JFFA25/PC-HOSPITAL-MS-SICPES#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "helmet": "^8.2.0",
+    "mongoose": "^9.6.3",
+    "mysql2": "^3.22.4",
+    "swagger-jsdoc": "^6.3.0",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
