@@ -1,4 +1,4 @@
-import Valoracion from "../../database/NoSQL/models/Valoracion.js";
+import Valoracion from "../../../Databases/NoSQL/Schemas/Valoracion.js";
 
 export const poblarNoSQL = async (req, res) => {
   const { cantidad, es_grave = false } = req.body;

@@ -1,5 +1,5 @@
 import { pool } from "../db.js";
-import Valoracion from "../../database/NoSQL/models/Valoracion.js";
+import Valoracion from "../../../Databases/NoSQL/Schemas/Valoracion.js";
 
 export const crearPoblacion = async (req, res) => {
   const { 

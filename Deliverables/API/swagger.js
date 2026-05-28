@@ -11,7 +11,8 @@ const options = {
       }
     ]
   },
-  apis: ["./API/server.js", "./API/routes/*.js"]
+  // Ajustar rutas para que apunten desde la raíz del proyecto
+  apis: ["./Deliverables/API/server.js", "./Deliverables/API/routes/*.js"]
 };
 
 const swaggerSpec = swaggerJsdoc(options);
