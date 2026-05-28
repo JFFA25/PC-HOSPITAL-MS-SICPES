@@ -106,7 +106,7 @@ database/SQL/Backups/backup_estructural.sql
 
 Inicia el servicio MongoDB y asegúrate de que la URI configurada en el archivo `.env` sea correcta.
 
-> Cualquier duda con la importacion del schema de la base de datos , acceder al archivo  [Backup.md](/Databases/SQL/Backups/Backup.md) de la carpeta Backup de la carpeta de SQL.
+> Cualquier duda con la importacion del schema , acceder al archivo  [Backup.md](/Databases/NoSQL/Backups/Backup.md) de la carpeta Backup de la carpeta de SQL.
 
 ## Levantar la API
 
