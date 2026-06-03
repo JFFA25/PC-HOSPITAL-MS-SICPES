@@ -17,6 +17,40 @@ Esta carpeta se encuentra en `Deliverables/API/build` y contiene la versión com
 
 > Usa este README como guía rápida para identificar el propósito de esta carpeta dentro del módulo API.
 
+## Manual rápido para ejecutar la API
+
+1. Desde la raíz del proyecto, copia el archivo de ejemplo de variables de entorno:
+
+```powershell
+copy .env.example .env
+```
+
+2. Instala dependencias en la raíz del proyecto:
+
+```powershell
+npm install
+```
+
+3. Si deseas ejecutar en modo desarrollo, usa:
+
+```powershell
+npm run dev
+```
+
+4. Para iniciar la API en modo producción, usa:
+
+```powershell
+npm start
+```
+
+5. Abre el navegador en:
+
+```text
+http://localhost:3000
+```
+
+> Si el contenido de `Deliverables/API/build` ya contiene archivos listos para producción, puedes ejecutar el servidor desde esa carpeta con `node server.js`.
+
 ## Tabla de Observaciones
 
 | Desarrollador | Rol | Observaciones |

@@ -54,6 +54,19 @@ SICPES es una innovadora plataforma web diseñada para proporcionar a los estudi
 | **Bases de Datos** | MySQL, MongoDB ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) |
 | **Documentación** | Swagger/OpenAPI, Markdown ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) |
 
+## Estructura del Proyecto
+
+- `source/` — directorio raíz de la estructura fuente del proyecto.
+- `build/` — directorio raíz de la estructura de artefactos de compilación.
+- `Deliverables/API/source/` — código fuente del backend de la API.
+- `Deliverables/API/build/` — artefactos listos para despliegue del backend.
+- `Deliverables/WebApp/source/` — código fuente del frontend web.
+- `Deliverables/WearableApp/source/` — código fuente de la app wearable.
+- `.gitignore` — excluye archivos temporales y datos sensibles.
+- `.env.example` — variables de entorno requeridas para ejecutar el proyecto.
+
+> Copia `.env.example` a `.env` y ajusta los valores locales antes de ejecutar `npm start` o `npm run dev`.
+
 ## Identidad Visual
 
 ### Logos del Proyecto

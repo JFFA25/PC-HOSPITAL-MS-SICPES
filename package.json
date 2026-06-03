@@ -2,11 +2,11 @@
   "name": "pc-hospital-ms-sicpes",
   "version": "1.0.0",
   "description": "API REST para ejecutar pruebas de poblacion para el area de servicios medicos usando una base de datos hibrida entre SQL y NoSQL",
-  "main": "server.js",
+  "main": "Deliverables/API/source/server.js",
   "type": "module",
   "scripts": {
-    "start": "node Deliverables/API/server.js",
-    "dev": "nodemon Deliverables/API/server.js"
+    "start": "node Deliverables/API/source/server.js",
+    "dev": "nodemon Deliverables/API/source/server.js"
   },
   "repository": {
     "type": "git",
