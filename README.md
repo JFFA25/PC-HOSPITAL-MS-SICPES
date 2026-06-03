@@ -64,7 +64,9 @@ SICPES es una innovadora plataforma web diseñada para proporcionar a los estudi
 - `Deliverables/WearableApp/source/` — código fuente de la app wearable.
 - `.gitignore` — excluye archivos temporales y datos sensibles.
 - `.env.example` — variables de entorno requeridas para ejecutar el proyecto.
-
+- 
+- `Docs/Tech/Technical_Decisions.md` — justificación técnica y decisiones arquitecturales.
+- `Docs/Documentation/CONVENTIONS.md` — convenciones de documentación y formato.
 > Copia `.env.example` a `.env` y ajusta los valores locales antes de ejecutar `npm start` o `npm run dev`.
 
 ## Identidad Visual
