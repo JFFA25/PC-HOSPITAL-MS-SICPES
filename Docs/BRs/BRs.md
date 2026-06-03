@@ -17,14 +17,14 @@ Plataforma hospitalaria híbrida (MySQL + MongoDB) para generar, gestionar y ana
 
 ## Requisitos de Negocio
 
-| ID | Requisito | Criterios | Prioridad |
+| ID | Requisito | Implementación real | Prioridad |
 |---|---|---|---|
-| RB1 | Generación de Datos | 10K+ registros en una operación, datos realistas | ALTA |
-| RB2 | Filtrado Avanzado | Por género, edad, alergias, prioridad, estado | MEDIA |
-| RB3 | Registro de Valoraciones | Síntomas, estudios, diagnóstico, auditoría | ALTA |
-| RB4 | Casos Críticos | Flag es_grave, síntomas/estudios diferenciados | ALTA |
-| RB5 | Integración Híbrida | Sincronización consistente MySQL↔MongoDB | CRÍTICA |
-| RB6 | Documentación API | Swagger actualizado con ejemplos | MEDIA |
+| RB1 | Generación de Datos | `POST /api/poblar-test` ejecuta `sp_poblacion` y retorna los registros insertados en SQL y NoSQL. | ALTA |
+| RB2 | Filtrado Avanzado | Los parámetros `genero`, `edad_min`, `edad_max`, `con_alergias`, `prioridad`, `tipo_servicio`, `estado_vida` se usan en la generación de datos SQL y NoSQL. | MEDIA |
+| RB3 | Registro de Valoraciones | La colección `valoraciones` almacena síntomas, estudios, diagnóstico preliminar y auditoría. | ALTA |
+| RB4 | Casos Críticos | `es_grave=true` cambia los síntomas y los estudios solicitados hacia prioridad `alta`. | ALTA |
+| RB5 | Integración Híbrida | `test_sql=true` y `test_nosql=true` permiten generar datos en ambas bases de datos simultáneamente. | CRÍTICA |
+| RB6 | Documentación API | Swagger documenta exactamente los endpoints disponibles y su cuerpo de solicitud. | MEDIA |
 
 ## Procesos de Negocio
 

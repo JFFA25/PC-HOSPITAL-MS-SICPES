@@ -17,24 +17,47 @@ A diferencia del esquema relacional (SQL), el diccionario NoSQL se enfoca en una
 *   **Documentos**: Registros en formato JSON/BSON con esquemas dinámicos.
 *   **Sub-documentos**: Objetos anidados para representar relaciones 1:1 o 1:N de forma embebida.
 
-## Entidades Documentadas
+## Entidades documentadas
 
-El diccionario cubre las siguientes colecciones principales identificadas en el sistema:
-*   `valoraciones`: Registros de atención médica, diagnósticos y estudios.
-*   `user_details`: Información extendida y perfiles de usuario.
-*   `audit_logs`: Trazabilidad de acciones administrativas y de sistema.
-*   `notifications`: Historial de alertas y comunicaciones.
+La documentación actualiza el diccionario NoSQL para reflejar la implementación real utilizada por la API.
 
-## Tipos de Datos Comunes
+### Colección `valoraciones`
+Registra las valoraciones generadas por los endpoints de pruebas.
+
+| Campo | Tipo | Descripción |
+|---|---|---|
+| `servicio_medico_id` | Number | ID del servicio médico asociado (generado en MySQL). |
+| `cita_id` | Number | ID de la cita asociada (generado en MySQL). |
+| `medico_id` | Number | Identificador del médico responsable. |
+| `fecha_valoracion` | Date | Fecha y hora de la valoración. |
+| `sintomas` | Array[String] | Lista de síntomas registrados. |
+| `estudios_solicitados` | Array[Object] | Estudios médicos solicitados. |
+| `diagnostico_preliminar` | String | Diagnóstico preliminar de la valoración. |
+| `observaciones` | String | Comentarios adicionales. |
+| `auditoria.creado_en` | Date | Fecha de creación del registro. |
+| `auditoria.actualizado_en` | Date | Fecha de actualización del registro (opcional). |
+
+### Subdocumento `estudios_solicitados`
+
+| Campo | Tipo | Descripción |
+|---|---|---|
+| `estudio` | String | Nombre del estudio. |
+| `prioridad` | String | Prioridad del estudio (`baja`, `media`, `alta`). |
+| `fecha_solicitud` | Date | Fecha de solicitud del estudio. |
+
+## Tipos de datos usados
 
 | Tipo | Uso |
 |------|-----|
-| `ObjectId` | Identificador único único generado por MongoDB. |
-| `String` | Textos, nombres y descripciones. |
-| `Number / Double` | Valores numéricos y cálculos médicos. |
-| `Boolean` | Flags de estado (ej: `es_grave`). |
-| `Date` | Marcas de tiempo ISO para auditoría. |
-| `Array` | Listas de estudios, síntomas o etiquetas. |
-| `Object` | Estructuras anidadas para datos complejos. |
+| `Number` | IDs del servicio, cita y médico. |
+| `String` | Textos, diagnósticos y observaciones. |
+| `Date` | Fechas de valoración y auditoría. |
+| `Array` | Síntomas y estudios solicitados. |
+| `Object` | Subdocumentos como `auditoria` y `estudios_solicitados`. |
 
-> **Nota**: El esquema NoSQL está diseñado para alta disponibilidad y escalabilidad. Para entender las validaciones aplicadas a nivel de aplicación, consulte los esquemas de Pydantic en el código fuente.
+## Correspondencia con el código
+
+- Definido en `Databases/NoSQL/Schemas/Valoracion.js`.
+- Generado por `Deliverables/API/source/controllers/poblacion.controller.js` y `Deliverables/API/source/controllers/poblar.controller.nosql.js`.
+
+> Este diccionario refleja la estructura real usada en la colección `valoraciones` y alinea el documento con la implementación actual.
