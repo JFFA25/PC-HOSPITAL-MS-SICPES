@@ -160,3 +160,37 @@ Desde Swagger UI es posible visualizar y probar todos los endpoints disponibles.
 | Base de Datos NoSQL | MongoDB + Mongoose ![MongoDB](https://img.shields.io/badge/mongodb-47A248.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Mongoose](https://img.shields.io/badge/mongoose-880000.svg?style=for-the-badge) |
 | Documentación    | Swagger (OpenAPI) ![Swagger](https://img.shields.io/badge/swagger-85EA2D.svg?style=for-the-badge&logo=swagger&logoColor=black) |
 
+## Despliegue en producción (sugerencia rápida)
+
+1. Instalar `pm2` globalmente:
+
+```bash
+npm install -g pm2
+```
+
+2. Iniciar la aplicación con PM2 desde la raíz del proyecto:
+
+```bash
+pm2 start Deliverables/API/source/server.js --name sicpes-api --env production
+pm2 save
+```
+
+3. (Opcional) Configurar `systemd` para iniciar PM2 al arrancar la máquina:
+
+```bash
+pm2 startup systemd
+```
+
+## Troubleshooting y pasos comunes
+
+- Mensaje `ECONNREFUSED` a MySQL: confirma que MySQL está en ejecución y que las credenciales en `.env` son correctas.
+- `MongoNetworkError`: revisa la URI de `MONGO_URI` y que el servicio `mongod` esté corriendo.
+- InsertMany falla por memoria: reduce `cantidad` o aumenta `chunkSize` en `Deliverables/API/source/controllers/poblar.controller.nosql.js`.
+- Logs de la API: ver logs en la consola o usar `pm2 logs sicpes-api` si se usa PM2.
+- Problemas con el procedimiento almacenado: ejecutar manualmente `CALL sp_poblacion(10, NULL, NULL, NULL, NULL, NULL, NULL, NULL);` en MySQL para validar.
+
+## Rollback básico
+
+- Si un test masivo deja datos de prueba indeseados, usar scripts de limpieza o respaldos SQL en `Databases/SQL/Backups/` para restaurar el estado.
+
+

@@ -69,6 +69,53 @@ SICPES es una innovadora plataforma web diseñada para proporcionar a los estudi
 - `Docs/Documentation/CONVENTIONS.md` — convenciones de documentación y formato.
 > Copia `.env.example` a `.env` y ajusta los valores locales antes de ejecutar `npm start` o `npm run dev`.
 
+## Cómo ejecutar el proyecto (resumen rápido)
+
+1. Instalar dependencias en la raíz del proyecto:
+
+```powershell
+npm install
+```
+
+2. Copiar variables de entorno y ajustarlas:
+
+```powershell
+copy .env.example .env
+# Edita .env con credenciales locales
+```
+
+3. Ejecutar en modo desarrollo (con recarga):
+
+```powershell
+npm run dev
+```
+
+4. Ejecutar en modo producción:
+
+```powershell
+npm start
+```
+
+## Arquitectura (diagrama)
+
+```mermaid
+flowchart LR
+  A[Cliente] -->|HTTP| B[API - Express (Deliverables/API/source)]
+  B --> C[MySQL] 
+  B --> D[MongoDB]
+  C ---|sp_poblacion| E[Stored Procedure]
+  B --> F[Swagger UI]
+```
+
+## Troubleshooting básico
+
+- Error de conexión a MySQL: verifica `MYSQL_HOST`, `MYSQL_USER`, `MYSQL_PASSWORD` y que el servicio de MySQL esté en ejecución.
+- Error de conexión a MongoDB: revisa `MONGO_URI` y que `mongod` esté activo.
+- Permisos de puerto: si el puerto 3000 está en uso, cambia `PORT` en `.env`.
+- Fallos en `sp_poblacion`: importa el backup SQL en `Databases/SQL/Backups/backup_estructura.sql` y revisa que las tablas existan.
+
+Si necesitas pasos de despliegue más avanzados (systemd, PM2, contenedores), revisa `Deliverables/API/DeployManual/Manual.md`.
+
 ## Identidad Visual
 
 ### Logos del Proyecto
