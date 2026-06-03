@@ -25,6 +25,29 @@ Genera datos en MySQL y/o MongoDB.
   - `pacientes_creados_sql` debe ser mayor a 0.
   - `citas_valoraciones_nosql` debe ser igual a 10000.
 
+- Ejemplo de respuesta real:
+```json
+{
+  "exito": true,
+  "mensaje": "¡Prueba de inserción completada!",
+  "filtros_usados": {
+    "cantidad": 10000,
+    "genero": null,
+    "estado_vida": null,
+    "prioridad": "Alta",
+    "tipo_servicio": "Urgencia",
+    "edad_min": null,
+    "edad_max": null,
+    "con_alergias": true
+  },
+  "detalles": {
+    "pacientes_creados_sql": 10000,
+    "citas_valoraciones_nosql": 10000,
+    "modo": "Rutina (Normal)"
+  }
+}
+```
+
 #### Caso 2: Filtro por edad y género
 - Request:
 ```json
@@ -54,6 +77,13 @@ Genera datos en MySQL y/o MongoDB.
   - HTTP 400
   - Mensaje: `La cantidad debe ser un número mayor a 0`
 
+- Ejemplo de respuesta real:
+```json
+{
+  "error": "La cantidad debe ser un número mayor a 0"
+}
+```
+
 ### 2. `POST /api/poblar-nosql`
 Genera datos exclusivos en MongoDB.
 
@@ -70,6 +100,16 @@ Genera datos exclusivos en MongoDB.
   - `total_insertados` igual a 1000
   - `modo` igual a `Normal`
 
+- Ejemplo de respuesta real:
+```json
+{
+  "exito": true,
+  "mensaje": "Datos generados en MongoDB correctamente",
+  "total_insertados": 1000,
+  "modo": "Normal"
+}
+```
+
 #### Caso 5: Generación NoSQL en modo crítico
 - Request:
 ```json
@@ -82,6 +122,16 @@ Genera datos exclusivos en MongoDB.
   - `exito: true`
   - `modo` igual a `Crítico`
   - Los síntomas incluyen `Dificultad respiratoria`.
+
+- Ejemplo de respuesta real:
+```json
+{
+  "exito": true,
+  "mensaje": "Datos generados en MongoDB correctamente",
+  "total_insertados": 1000,
+  "modo": "Crítico"
+}
+```
 
 ## Cobertura de pruebas
 
